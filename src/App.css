@@ -1,0 +1,122 @@
+body{
+ background-color: #b0d3f8; 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+ 
+}
+.title{
+  margin-left: 80vh;
+  margin-top: 150px;
+}
+.flex {
+  display: flex; 
+}
+.flex1{
+padding-left: 50px;
+padding-right: 50px;
+width: 50%;
+font-weight:bold;
+border-width: 1vh;
+letter-spacing: 1px;
+word-spacing: 3px;
+line-height: 3.5vh;
+text-align: justify;
+margin-top: 6vh;
+}
+.signin {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 30vh;
+}
+.signin form {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.signin h3 {
+  margin-bottom: 20px;
+}
+
+.signin label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.signin input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signin button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.signin button:hover {
+  background-color: #0056b3;
+}
+.signin h1{
+  text-align: center;
+}
+nav {
+  background-color: #333;
+  padding-left: 130vh;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float:left;
+  padding-left: 50px;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #f5eaea;
+}
+.flex1 {
+  padding: 20px;
+  margin-left: 5vh;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.do {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.details {
+  color: #666;
+  line-height: 1.6;
+}
+
+.details::first-letter {
+  font-size: 150%;
+}
+
